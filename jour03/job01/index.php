@@ -9,7 +9,7 @@
 <body>
     <?php
     $number=array('200','204','173','178','171','404','459');
-    foreach( $number as $key => $number ){
+    foreach($number as $key => $number){
     if($number%2 == 0){
     echo $number.' Est paire<br>';
     }
