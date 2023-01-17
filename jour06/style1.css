@@ -1,0 +1,39 @@
+
+body{
+    background-color: aqua;
+
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+/*formulaire*/
+    form{
+        line-height: 40px;
+ 
+
+    }
+    select{
+        margin-bottom: 80px;
+    }
+
+    form.form {
+        display: table;
+    }
+    
+    div.form {
+        display: table-row;
+    }
+    
+    label,
+    input {
+        display: table-cell;
+        margin-bottom: 10px;
+        margin-bottom: 30px;
+    }
+    
+    label {
+        padding-right: 10px;
+    }
+    

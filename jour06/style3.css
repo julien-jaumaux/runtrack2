@@ -1,0 +1,48 @@
+
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2017/01/20/00/30/maldives-1993704__340.jpg);
+    background-size: cover;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 0 0 2px #d60, 0 0 2px #d60, 0 0 2px #d60, 0 0 2px #d60, 0 0 2px #d60, 0 0 2px #d60, 0 0 2px #d60, 0 0 2px #d60, 0 0 2px #d60, 0 0 2px #d60, 0 0 2px #d60, 0 0 2px #d60, 0 0 2px #d60, 0 0 2px #d60, 0 0 2px #d60, 0 0 2px #d60, 0 0 2px #d60, 0 0 2px #d60, 0 0 2px #d60, 0 0 2px #d60;
+
+}
+    form{
+        line-height: 40px;
+        margin-top: 5%;
+        line-height: 150px; 
+        margin-left: 40%;
+    }
+    select{
+        width: 100px;
+    }
+    select:hover {
+        background-color: gold;
+    }
+    form.form {
+        display: table;
+    }
+    
+    div.form {
+        display: table-row;
+    }
+    
+    label,
+    input {
+        display: table-cell;
+        margin-bottom: 10px;
+        font-family: 'Dosis', sans-serif;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    
+    label {
+        padding-right: 10px;
+        font-size: xx-large; 
+    }
+    input:hover {
+        background-color: gold;
+    }

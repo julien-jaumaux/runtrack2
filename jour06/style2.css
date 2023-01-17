@@ -1,0 +1,52 @@
+
+body{
+    background-color: rgb(69, 220, 45);
+
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    font-size: 5em;
+    text-shadow:0 4px 0 #00ecff, 0 -4px 0 #ff4045  
+}
+select{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+    form{
+        line-height: 50px;
+        display: flex;     
+    }
+
+    form.form {
+        display: table;
+        margin-left: 40%;
+        margin-top: 5%;
+    }
+    
+    div.form {
+        display: table-row;
+    
+    }
+    
+    label,
+    input {
+        display: table-cell;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: bold;
+        font-size: 2em;
+    }
+    input:hover{
+        background-color: rgba(128, 128, 128, 0.05);
+    }
+    
+    label {
+        padding-right: 10px;
+    }
+    
