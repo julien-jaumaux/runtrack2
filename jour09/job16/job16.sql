@@ -5,3 +5,5 @@ SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8mb4 */;
 
+----------REQUETE SQL ------
+SELECT MAX(`capacite`), `etages`.`nom`, `salles`.`nom` AS 'Biggest Room' FROM `etages` INNER JOIN `salles` ON `salles`.`id_etage` = `etages`.`id`;
